@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		991BE0A42C32654D00348CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BE0A32C32654D00348CE5 /* AppDelegate.swift */; };
 		991BE0A62C32654D00348CE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BE0A52C32654D00348CE5 /* SceneDelegate.swift */; };
-		991BE0A82C32654D00348CE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BE0A72C32654D00348CE5 /* ViewController.swift */; };
-		991BE0AB2C32654D00348CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991BE0A92C32654D00348CE5 /* Main.storyboard */; };
+		991BE0A82C32654D00348CE5 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BE0A72C32654D00348CE5 /* RootViewController.swift */; };
 		991BE0AD2C32655000348CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991BE0AC2C32655000348CE5 /* Assets.xcassets */; };
 		991BE0B02C32655000348CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991BE0AE2C32655000348CE5 /* LaunchScreen.storyboard */; };
+		991BE0B92C32659200348CE5 /* NeedleFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 991BE0B82C32659200348CE5 /* NeedleFoundation */; };
+		991BE0BB2C32659200348CE5 /* NeedleFoundationTest in Frameworks */ = {isa = PBXBuildFile; productRef = 991BE0BA2C32659200348CE5 /* NeedleFoundationTest */; };
+		991BE0C22C3265A500348CE5 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 991BE0C12C3265A500348CE5 /* RxCocoa */; };
+		991BE0C42C3265A500348CE5 /* RxCocoa-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 991BE0C32C3265A500348CE5 /* RxCocoa-Dynamic */; };
+		991BE0C62C3265A500348CE5 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 991BE0C52C3265A500348CE5 /* RxRelay */; };
+		991BE0C82C3265A500348CE5 /* RxRelay-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 991BE0C72C3265A500348CE5 /* RxRelay-Dynamic */; };
+		991BE0CA2C3265A500348CE5 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 991BE0C92C3265A500348CE5 /* RxSwift */; };
+		991BE0CC2C3265A500348CE5 /* RxSwift-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 991BE0CB2C3265A500348CE5 /* RxSwift-Dynamic */; };
+		991BE0D22C3268B400348CE5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BE0D12C3268B400348CE5 /* ViewModel.swift */; };
+		991BE0D42C3273AB00348CE5 /* RootComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BE0D32C3273AB00348CE5 /* RootComponent.swift */; };
+		991BE0D62C32745700348CE5 /* HumanComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BE0D52C32745700348CE5 /* HumanComponent.swift */; };
+		991BE0D82C3275CD00348CE5 /* RobotComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BE0D72C3275CD00348CE5 /* RobotComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		991BE0A02C32654D00348CE5 /* NeedleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeedleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		991BE0A32C32654D00348CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		991BE0A52C32654D00348CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		991BE0A72C32654D00348CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		991BE0AA2C32654D00348CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		991BE0A72C32654D00348CE5 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		991BE0AC2C32655000348CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		991BE0AF2C32655000348CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		991BE0B12C32655000348CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991BE0D12C3268B400348CE5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		991BE0D32C3273AB00348CE5 /* RootComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootComponent.swift; sourceTree = "<group>"; };
+		991BE0D52C32745700348CE5 /* HumanComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanComponent.swift; sourceTree = "<group>"; };
+		991BE0D72C3275CD00348CE5 /* RobotComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				991BE0CA2C3265A500348CE5 /* RxSwift in Frameworks */,
+				991BE0C82C3265A500348CE5 /* RxRelay-Dynamic in Frameworks */,
+				991BE0BB2C32659200348CE5 /* NeedleFoundationTest in Frameworks */,
+				991BE0C62C3265A500348CE5 /* RxRelay in Frameworks */,
+				991BE0C22C3265A500348CE5 /* RxCocoa in Frameworks */,
+				991BE0CC2C3265A500348CE5 /* RxSwift-Dynamic in Frameworks */,
+				991BE0B92C32659200348CE5 /* NeedleFoundation in Frameworks */,
+				991BE0C42C3265A500348CE5 /* RxCocoa-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +80,11 @@
 			children = (
 				991BE0A32C32654D00348CE5 /* AppDelegate.swift */,
 				991BE0A52C32654D00348CE5 /* SceneDelegate.swift */,
-				991BE0A72C32654D00348CE5 /* ViewController.swift */,
-				991BE0A92C32654D00348CE5 /* Main.storyboard */,
+				991BE0A72C32654D00348CE5 /* RootViewController.swift */,
+				991BE0D32C3273AB00348CE5 /* RootComponent.swift */,
+				991BE0D52C32745700348CE5 /* HumanComponent.swift */,
+				991BE0D72C3275CD00348CE5 /* RobotComponent.swift */,
+				991BE0D12C3268B400348CE5 /* ViewModel.swift */,
 				991BE0AC2C32655000348CE5 /* Assets.xcassets */,
 				991BE0AE2C32655000348CE5 /* LaunchScreen.storyboard */,
 				991BE0B12C32655000348CE5 /* Info.plist */,
@@ -83,6 +108,16 @@
 			dependencies = (
 			);
 			name = NeedleExample;
+			packageProductDependencies = (
+				991BE0B82C32659200348CE5 /* NeedleFoundation */,
+				991BE0BA2C32659200348CE5 /* NeedleFoundationTest */,
+				991BE0C12C3265A500348CE5 /* RxCocoa */,
+				991BE0C32C3265A500348CE5 /* RxCocoa-Dynamic */,
+				991BE0C52C3265A500348CE5 /* RxRelay */,
+				991BE0C72C3265A500348CE5 /* RxRelay-Dynamic */,
+				991BE0C92C3265A500348CE5 /* RxSwift */,
+				991BE0CB2C3265A500348CE5 /* RxSwift-Dynamic */,
+			);
 			productName = NeedleExample;
 			productReference = 991BE0A02C32654D00348CE5 /* NeedleExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +146,10 @@
 				Base,
 			);
 			mainGroup = 991BE0972C32654D00348CE5;
+			packageReferences = (
+				991BE0B72C32659200348CE5 /* XCRemoteSwiftPackageReference "needle" */,
+				991BE0BC2C3265A500348CE5 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 991BE0A12C32654D00348CE5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +166,6 @@
 			files = (
 				991BE0B02C32655000348CE5 /* LaunchScreen.storyboard in Resources */,
 				991BE0AD2C32655000348CE5 /* Assets.xcassets in Resources */,
-				991BE0AB2C32654D00348CE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +176,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				991BE0A82C32654D00348CE5 /* ViewController.swift in Sources */,
+				991BE0D82C3275CD00348CE5 /* RobotComponent.swift in Sources */,
+				991BE0A82C32654D00348CE5 /* RootViewController.swift in Sources */,
 				991BE0A42C32654D00348CE5 /* AppDelegate.swift in Sources */,
+				991BE0D62C32745700348CE5 /* HumanComponent.swift in Sources */,
+				991BE0D22C3268B400348CE5 /* ViewModel.swift in Sources */,
+				991BE0D42C3273AB00348CE5 /* RootComponent.swift in Sources */,
 				991BE0A62C32654D00348CE5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +189,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		991BE0A92C32654D00348CE5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				991BE0AA2C32654D00348CE5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		991BE0AE2C32655000348CE5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,6 +397,68 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		991BE0B72C32659200348CE5 /* XCRemoteSwiftPackageReference "needle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uber/needle.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		991BE0BC2C3265A500348CE5 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		991BE0B82C32659200348CE5 /* NeedleFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 991BE0B72C32659200348CE5 /* XCRemoteSwiftPackageReference "needle" */;
+			productName = NeedleFoundation;
+		};
+		991BE0BA2C32659200348CE5 /* NeedleFoundationTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 991BE0B72C32659200348CE5 /* XCRemoteSwiftPackageReference "needle" */;
+			productName = NeedleFoundationTest;
+		};
+		991BE0C12C3265A500348CE5 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 991BE0BC2C3265A500348CE5 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		991BE0C32C3265A500348CE5 /* RxCocoa-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 991BE0BC2C3265A500348CE5 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxCocoa-Dynamic";
+		};
+		991BE0C52C3265A500348CE5 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 991BE0BC2C3265A500348CE5 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		991BE0C72C3265A500348CE5 /* RxRelay-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 991BE0BC2C3265A500348CE5 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxRelay-Dynamic";
+		};
+		991BE0C92C3265A500348CE5 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 991BE0BC2C3265A500348CE5 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		991BE0CB2C3265A500348CE5 /* RxSwift-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 991BE0BC2C3265A500348CE5 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxSwift-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 991BE0982C32654D00348CE5 /* Project object */;
 }

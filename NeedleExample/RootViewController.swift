@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RootViewController: UIViewController {
   let robotComponent: RobotComponent
   let humanComponent: HumanComponent
   
